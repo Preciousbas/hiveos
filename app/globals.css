@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #0d0e0a;
+  color: #f1eee3;
+  min-height: 100vh;
+}
+
+/* Soft grid atmosphere */
+.hive-grid {
+  background-image:
+    linear-gradient(rgba(92, 86, 52, 0.22) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(92, 86, 52, 0.22) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, black 28%, transparent 72%);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #34382a;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
