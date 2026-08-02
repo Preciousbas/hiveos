@@ -110,4 +110,4 @@ data/          # Local filesystem fallback for Memory
 
 ## License
 
-Private / hackathon project unless otherwise noted.
+Private / hackathon project.
